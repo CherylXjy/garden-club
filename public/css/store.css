@@ -1,0 +1,26 @@
+.store_container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 10px 30px;
+}
+
+.store_col-1 {
+	padding: 10px;
+}
+
+.store_col-3 {
+	display: inline-block;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+}
+
+.store_col-3 img {
+	box-shadow: 5px 5px 30px #888888;
+}
+
+.contacttext {
+	padding: 100px 0 0 0;
+	text-align: center;
+	font-size: 1.5em;
+}

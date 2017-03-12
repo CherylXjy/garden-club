@@ -2,26 +2,32 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8"/>
-	<link="stylesheet" href="/sass/store.css">
+	<link rel="stylesheet" href="/css/main.min.css">
+	<link rel="stylesheet" href="/css/store.css">
 	<title>Lincoln Middle School - Store</title>
 </head>
 <body>
 	{{> navbar}}
-	<p>Hello world this is the store page!</p>
-	<table>
-		<tr>
-			<td>Tomato!
-				<img src="tomato.jpg">
-				<p>Click on "Contact Us" to place an order!</p>
-			</td>
-			<td>Cauliflower!
-				<img src="cauliflower.jpg">
-				<p>Click on "Contact Us" to place an order!</p>
-			</td>
-			<td>Kale!
-				<img src="kale.jpg">
-				<p>Click on "Contact Us" to place an order!</p>
-			</td>
-		</tr>
-	</table>
+
+	<div class="store_container">
+		<div class="store_col-1">
+			<h1>Produce</h1>
+			<p>Here's what we're growing right now:</p>
+		</div>
+		<div class="store_col-3">
+			<img src="/images/cauliflower.jpg">
+			<p><strong>Cauliflower</strong></p>
+		</div>
+		<div class="store_col-3">
+			<img src="/images/kale.jpg">
+			<p><strong>Kale</strong></p>
+		</div>
+		<div class="store_col-3">
+			<img src="/images/tomato.jpg">
+			<p><strong>Tomatoes</strong></p>
+		</div>
+		<div class="store_col-1 contacttext">
+			<p><strong><a href="/contact.html">Contact Us</a> to purchase our produce!</strong></p>
+		</div>
+	</div>
 </body>
