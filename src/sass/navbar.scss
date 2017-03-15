@@ -10,8 +10,8 @@ ul {
     text-align: center;
     padding: 0;
     overflow: hidden;
-    border-top-style: solid;
-    border-bottom-style: solid;
+    border-top: 1px solid #989898;
+    border-bottom: 1px solid #989898;
     background-color: white;
     margin-bottom: 0;
 }
@@ -31,6 +31,9 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 0.75em;
+    font-weight: bold;
+    font-family: "Muli", sans-serif;
 }
 
 
