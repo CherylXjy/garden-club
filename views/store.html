@@ -2,28 +2,32 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8"/>
-    {{> meta}}
+	<link rel="stylesheet" href="/css/main.min.css">
+	<link rel="stylesheet" href="/css/store.css">
 	<title>Lincoln Middle School - Store</title>
-
-    <link rel="stylesheet" href="/css/main.min.css">
-    <script src="/js/vendor/modernizr.min.js"></script>
 </head>
 <body>
 	{{> navbar}}
-    <p>Hello world! This is the index.</p>
 
-    <h5>Links to other pages</h5>
-    <a href="/">Index</a>
-    <a href="/store.html">Store</a>
-    <a href="/projects.html">Projects</a>
-    <a href="/contact.html">Contact</a>
-
-    <script src="/js/vendor/jquery-1.12.0.min.js"></script>
-    <script src="/js/main.min.js"></script>
-
-
-    WHATTT
-
-    {{> ga}}
+	<div class="store_container">
+		<div class="store_col-1">
+			<h1>Produce</h1>
+			<p>Here's what we're growing right now:</p>
+		</div>
+		<div class="store_col-3">
+			<img src="/images/cauliflower.jpg">
+			<p><strong>Cauliflower</strong></p>
+		</div>
+		<div class="store_col-3">
+			<img src="/images/kale.jpg">
+			<p><strong>Kale</strong></p>
+		</div>
+		<div class="store_col-3">
+			<img src="/images/tomato.jpg">
+			<p><strong>Tomatoes</strong></p>
+		</div>
+		<div class="store_col-1 contacttext">
+			<p><strong><a href="/contact.html">Contact Us</a> to purchase our produce!</strong></p>
+		</div>
+	</div>
 </body>
-</html>
