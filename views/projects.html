@@ -1,27 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8"/>
+    <meta charset="utf-8"/>
 
-	{{> meta}}
+    {{> meta}}
 
-	<title>Lincoln Middle School - Projects</title>
+    <title>Lincoln Middle School - Projects</title>
 
+    <link rel="stylesheet" href="../src/sass/projects.css">
     <link rel="stylesheet" href="/css/main.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <script src="/js/vendor/modernizr.min.js"></script>
 </head>
 <body>
-    {{> navbar}}
-	<p>Hello world this is the projects page!</p>
+{{> navbar}}
+<p>Hello world this is the projects page!</p>
 
-    <h5>Links to other pages</h5>
-    <a href="/store.html">Store</a>
-    <a href="/projects.html">Projects</a>
-    <a href="/contact.html">Contact</a>
+<h5>Links to other pages</h5>
+<a href="/store.html">Store</a>
+<a href="/projects.html">Projects</a>
+<a href="/contact.html">Contact</a>
 
-    <script src="/js/vendor/jquery-1.12.0.min.js"></script>
-    <script src="/js/main.min.js"></script>
+<section class = 'container'>
+    <div class="single-item">
+        <div class = "project">
+            <img src="../src/img/index-produce-img.png"/>
+            <h2>Project Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh non quam hendrerit dictum lobortis convallis erat. Nunc sit amet convallis nibh. Etiam vitae orci a felis accumsan lacinia. Nam euismod feugiat urna sed ornare. Cras eleifend suscipit sem, id consequat elit. Aliquam hendrerit porta urna, id tristique enim congue nec. Etiam pharetra leo sed lorem porttitor luctus. Fusce vulputate elit sapien, maximus iaculis felis fringilla a. Donec semper at metus vel condimentum.</p>
+        </div>
+        <div class = "project">
+            <img src="../src/img/index-produce-img.png"/>
+            <h2>Project Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh non quam hendrerit dictum lobortis convallis erat. Nunc sit amet convallis nibh. Etiam vitae orci a felis accumsan lacinia. Nam euismod feugiat urna sed ornare. Cras eleifend suscipit sem, id consequat elit. Aliquam hendrerit porta urna, id tristique enim congue nec. Etiam pharetra leo sed lorem porttitor luctus. Fusce vulputate elit sapien, maximus iaculis felis fringilla a. Donec semper at metus vel condimentum.</p>
+        </div>
+        <div class = "project">
+            <img src="../src/img/index-produce-img.png"/>
+            <h2>Project Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh non quam hendrerit dictum lobortis convallis erat. Nunc sit amet convallis nibh. Etiam vitae orci a felis accumsan lacinia. Nam euismod feugiat urna sed ornare. Cras eleifend suscipit sem, id consequat elit. Aliquam hendrerit porta urna, id tristique enim congue nec. Etiam pharetra leo sed lorem porttitor luctus. Fusce vulputate elit sapien, maximus iaculis felis fringilla a. Donec semper at metus vel condimentum.</p>
+        </div>
+        <div class = "project">
+            <img src="../src/img/index-produce-img.png"/>
+            <h2>Project Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nibh non quam hendrerit dictum lobortis convallis erat. Nunc sit amet convallis nibh. Etiam vitae orci a felis accumsan lacinia. Nam euismod feugiat urna sed ornare. Cras eleifend suscipit sem, id consequat elit. Aliquam hendrerit porta urna, id tristique enim congue nec. Etiam pharetra leo sed lorem porttitor luctus. Fusce vulputate elit sapien, maximus iaculis felis fringilla a. Donec semper at metus vel condimentum.</p>
+        </div>
+    </div>
+</section>
 
-    {{> ga}}
+<script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+<script type="text/javascript">
+    $(".single-item").slick({
+        arrows: true,
+        dots: true,
+    });
+</script>
+
+{{> ga}}
+
 </body>
 </html>

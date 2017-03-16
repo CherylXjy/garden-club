@@ -1,0 +1,20 @@
+.container {
+    margin: auto;
+    max-width: 80%;
+}
+
+.container img {
+    display: block;
+    margin: auto;
+    max-height: 650px;
+    max-width: 100%;
+}
+
+.project {
+    column-count: 2;
+}
+
+.project h2 {
+    color: #009900;
+    text-align: center;
+}
